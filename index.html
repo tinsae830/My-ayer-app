@@ -15,21 +15,23 @@
     <div class="weather-app">
     <header>
         <form>
-            <input type="search" placeholder="Enter a city.." required>
-            <input type="submit" value="Search">
+            <input class="form-search-input" type="search" placeholder="Enter a city.." required>
+            <input class="form-search-button" type="submit" value="Search">
         </form>
     </header>
     
     
     <main>
+      <div class="weather-app-data">
       <div>
-        <h1>Addis Ababa</h1>
-        <p>Tuesday 21:08, overcast clouds
+        <h1 class="weather-app-city">Addis Ababa</h1>
+        <p class="weather-app-details">Tuesday 21:08, overcast clouds
             <br />
-            Humidity: 77%, Wind: 7.2km/h</p>
+            Humidity: <span>77%</span>, Wind: <span>7.2km/h</span></p>
      </div>
-     <div>
-        🌤️ 16°C
+     <div class="weather-app-temperature" >
+        <span class="weather-app-icon">🌤️</span> <span class="weather-app-number">16</span><span class="weather-app-unit">°C</span>
+     </div>
      </div>
     </main>
 
