@@ -14,9 +14,9 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input class="form-search-input" type="search" placeholder="Enter a city.." required>
-            <input class="form-search-button" type="submit" value="Search">
+        <form id="search-form">
+            <input id="form-search-input" class="form-search-input" type="search" placeholder="Enter a city.." required>
+            <input id= "form-search-button" class="form-search-button" type="submit" value="Search">
         </form>
     </header>
     
@@ -24,7 +24,7 @@
     <main>
       <div class="weather-app-data">
       <div>
-        <h1 class="weather-app-city">Addis Ababa</h1>
+        <h1 id="city" class="weather-app-city">Addis Ababa</h1>
         <p class="weather-app-details">Tuesday 21:08, overcast clouds
             <br />
             Humidity: <span>77%</span>, Wind: <span>7.2km/h</span></p>
@@ -38,5 +38,6 @@
     
     <footer>Coded by <a href="https://github.com/tinsae830" target="_blank">Tinsae</a>, is open-sourced on<a href="https://github.com/tinsae830/My-ayer-app" target="_blank"> Github </a>and based on <a href="https://my-ayer-app.netlify.app/" target="_blank">Netlify</a></footer>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
