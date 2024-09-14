@@ -32,7 +32,7 @@ span{
 
 .weather-app{
 background: white;
-max-width: 600px;
+max-width: 500px;
 margin: 50px auto;
 padding: 60px;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
@@ -76,17 +76,23 @@ border-radius: 15px;
 }
 
 .weather-app-icon{
-   font-size: 44px;
-   
+   width: 88px;
+   height: 88px; 
+   position: relative;
+   right: 80px;
 }
 
 .weather-app-number{
 font-size: 88px;
 font-weight: bold;
+line-height: 88px;
+position: relative;
+bottom: 100px;
+
 }
 
 .weather-app-unit{
 position: relative;
-bottom: 43px;
+bottom: 142px;
 font-size: 28px;
 }
