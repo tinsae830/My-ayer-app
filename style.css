@@ -107,11 +107,16 @@ font-size: 28px;
     font-size: 20px;
     line-height: 28px;
     color: rgba(39, 33, 66, 0.4);
+
 }
 
 .weather-forecast-icon{
-    text-align: center;
-    font-size: 38px;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+   
 }
 
 .weather-forecast-temperatures{
@@ -119,6 +124,7 @@ font-size: 28px;
     color: #f65282;
     display: flex ;
     justify-content: center;
+  
 }
 .weather-forecast-temperature{
     padding: 0 10px;
